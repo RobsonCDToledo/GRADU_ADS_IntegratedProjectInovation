@@ -1,0 +1,10 @@
+{
+  "colors": {
+    "primary": "#4db3a4",
+    "secondary": "#085c65", 
+    "background": "#22797f", // plano de fundo da imagem
+    "text": "#f4f4ee", // texto da imagem
+    "accent": "#2c9da1" // centro do triangulo
+  }
+}
+ 
