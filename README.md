@@ -124,6 +124,7 @@ pip install -r requirements.txt
 ```bash 
 streamlit run home.py
 ```
+---
 
 🔒 Login Padrão (primeira execução)
 
@@ -132,13 +133,17 @@ Usuário: admin
 Senha: admin123  
 Perfil: admin  
 
-⚠️ Recomendado alterar a senha assim que possível.
+⚠️ Recomendado alterar a senha assim que possível.  
+
+---
 
 📌 Próximos Passos
   - Implementar módulo completo de Consultas.  
   - Integrar dashboard inicial com dados reais.  
   - Melhorar layout para dispositivos móveis.  
   - Criar relatórios avançados (filtros e exportação).  
+
+---
 
 📜 Licença
 
