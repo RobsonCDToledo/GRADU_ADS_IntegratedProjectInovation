@@ -108,7 +108,7 @@ ClinicalScheduleManager/
 git clone https://github.com/seu-usuario/vida-plus.git
 cd vida-plus
 ```
-2 **Criar e ativar ambiente virtual
+2. **Criar e ativar ambiente virtual**
 ```bash 
 python -m venv .venv
 # Windows
@@ -116,33 +116,29 @@ python -m venv .venv
 # Linux/Mac
 source .venv/bin/activate
 ```
-3 **Instalar depedências
+3. **Instalar depedências**
 ```bash 
 pip install -r requirements.txt
 ```
-4 **Rodar o sistema
+4. **Rodar o sistema**
 ```bash 
 streamlit run home.py
 ```
 
 🔒 Login Padrão (primeira execução)
 
-Ao iniciar o sistema pela primeira vez, será criado automaticamente:
-Usuário: admin
-Senha: admin123
-Perfil: admin
+Ao iniciar o sistema pela primeira vez, será criado automaticamente:  
+Usuário: admin  
+Senha: admin123  
+Perfil: admin  
 
 ⚠️ Recomendado alterar a senha assim que possível.
 
 📌 Próximos Passos
-
-  - Implementar módulo completo de Consultas.
-
-  - Integrar dashboard inicial com dados reais.
-
-  - Melhorar layout para dispositivos móveis.
-
-  - Criar relatórios avançados (filtros e exportação).
+  - Implementar módulo completo de Consultas.  
+  - Integrar dashboard inicial com dados reais.  
+  - Melhorar layout para dispositivos móveis.  
+  - Criar relatórios avançados (filtros e exportação).  
 
 📜 Licença
 
