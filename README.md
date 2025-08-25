@@ -60,30 +60,30 @@ Atualmente, o projeto encontra-se em desenvolvimento, com **divisão de funciona
 
 ## 📂 Estrutura de Pastas (parcial)
 
-ClinicalScheduleManager/
-│
-├── auth.py # Autenticação e CRUD de usuários
-├── home.py # Tela inicial de login
-├── pages/
-│ └── system.py # Sistema principal
-│
-├── gui/
-│ ├── cad/ # Telas de cadastros
-│ │ ├── pag_cad_pacientes.py
-│ │ └── pag_cad_medicos.py
-│ ├── view/ # Visualizações e relatórios
-│ │ └── view_tables_st.py
-│ └── configs/ # Telas de edição
-│ └── edit.py
-│
-├── dict/ # Dicionários de opções
-│ └── dicionarios.py
-│
-├── db/
-│ └── data/
-│ └── clinica_vidaplus.db # Banco de dados SQLite
-│
-└── requirements.txt
+ClinicalScheduleManager/  
+│  
+├── auth.py # Autenticação e CRUD de usuários  
+├── home.py # Tela inicial de login  
+├── pages/  
+│ └── system.py # Sistema principal  
+│  
+├── gui/  
+│ ├── cad/ # Telas de cadastros  
+│ │ ├── pag_cad_pacientes.py  
+│ │ └── pag_cad_medicos.py  
+│ ├── view/ # Visualizações e relatórios  
+│ │ └── view_tables_st.py  
+│ └── configs/ # Telas de edição  
+│ └── edit.py  
+│  
+├── dict/ # Dicionários de opções  
+│ └── dicionarios.py  
+│  
+├── db/  
+│ └── data/  
+│ └── clinica_vidaplus.db # Banco de dados SQLite  
+│  
+└── requirements.txt  
 
 
 ---
