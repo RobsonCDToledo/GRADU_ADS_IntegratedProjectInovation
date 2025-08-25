@@ -1,0 +1,49 @@
+# Documentação do Projeto: Sistema de Gestão Clínica Vida+
+
+## Resumo Geral
+
+Este projeto é um sistema de gestão clínica desenvolvido para a Clínica Vida+, com o objetivo de facilitar o cadastro, visualização e edição de pacientes e médicos, além de permitir o agendamento de consultas e a geração de relatórios. O sistema foi construído utilizando Python, Streamlit para a interface gráfica, e SQLite para o armazenamento dos dados.
+
+## Estrutura do Projeto
+
+- **app.py / app_gui.py**: Arquivos principais para inicialização do sistema e interface gráfica com Streamlit.
+- **cli/**: Scripts de linha de comando para cadastro de médicos e pacientes.
+- **db/**: Módulo de acesso ao banco de dados SQLite, incluindo repositórios para médicos e pacientes.
+- **gui/**: Interface gráfica dividida em páginas de cadastro, edição, visualização de tabelas e configurações.
+- **dict/**: Dicionários de apoio para o sistema.
+- **archives/**: Arquivos auxiliares, como o CSV do cronograma do projeto.
+- **requirements.txt**: Lista de dependências do projeto.
+- **InitVenv.mkd**: Instruções para inicialização do ambiente virtual.
+
+## Funcionalidades Implementadas
+
+- **Cadastro de Pacientes e Médicos**: Formulários interativos para inclusão de novos registros.
+- **Visualização de Dados**: Tabelas dinâmicas para consulta dos pacientes e médicos cadastrados.
+- **Edição de Cadastros**: Permite editar informações de pacientes e médicos diretamente pela interface.
+- **Relatórios**: Geração de relatórios dos cadastros realizados.
+- **Configurações**: Opções para gerenciar usuários e editar cadastros.
+- **Agendamento de Consultas**: Estrutura inicial para futura implementação.
+- **Interface Moderna**: Utilização de CSS customizado e imagens para uma experiência visual agradável.
+
+## Tecnologias Utilizadas
+
+- **Python**
+- **Streamlit**
+- **SQLite**
+- **pytz** (fuso horário)
+- **streamlit_autorefresh** (atualização automática)
+
+## Observações
+
+- Algumas funcionalidades, como agendamento de consultas e gerenciamento de usuários, estão em desenvolvimento.
+- O projeto está estruturado para fácil manutenção e expansão de novas funcionalidades.
+
+## Como Executar
+
+1. Instale as dependências com `pip install -r requirements.txt`.
+2. Execute o sistema com `streamlit run app_gui.py`.
+3. Acesse a interface pelo navegador para utilizar todas as funcionalidades disponíveis.
+
+---
+
+Este documento resume a estrutura e as principais funcionalidades do Sistema de Gestão Clínica Vida+, facilitando o entendimento e a manutenção do projeto.

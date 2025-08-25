@@ -1,0 +1,12 @@
+# Conectar virtual Ambiente
+
+- CD ClinicalScheduleManager
+- source .venv/Scripts/activate
+
+
+# Quando encerrar sem querer o meu servidor local e não conseguir fechar rodar o código 
+
+- netstat -ano | grep (Porta lógica onde estava hospedado) 
+- taskkill /PID (Código do PID do servidor) /F
+
+

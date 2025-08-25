@@ -62,3 +62,37 @@ dict_generos = {
     "F": "Feminino",
     "Outros": "Outros"
 }
+
+dict_opcoes_de_configuracoes = [
+    "Gerenciar Usuários",
+    "Editar Cadastros",
+    "Excluir Cadastros",
+]
+
+dict_tipos_de_cadastros = [
+    "Pacientes",
+    "Médicos",
+    "Convênios"
+]
+
+dict_relatorios = [
+    "Relatório de Pacientes",
+    "Relatório de Médicos",
+    "Relatório de Convênios"
+]
+
+dict_funcionalidades = [
+    "Início", 
+    "Cadastros", 
+    "Consultas",
+    "Relatórios", 
+    "Configurações", 
+    "Ajuda", 
+    "Sair",
+]
+
+dict_consultas = [
+    "Agendar Consultas",
+    "Visualizar Consultas",
+    "Cancelar Consultas"
+]

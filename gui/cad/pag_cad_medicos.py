@@ -1,3 +1,5 @@
+"""Formulário de Cadastro de Médicos com Revisão e Validação de Dados"""
+
 import re
 import streamlit as st
 from db.repos.repositorio_medicos import inserir_medico, buscar_crm
@@ -6,7 +8,8 @@ from dict.dicionarios import dict_especialidades_medicas
 
 def form_cadastro_medico():
     """
-    Função para exibir o formulário de cadastro de médico no Streamlit com revisão antes da submissão.
+    Função para exibir o formulário de cadastro 
+    de médico no Streamlit com revisão antes da submissão.
     Permite usar HTML/CSS para customizar títulos e textos.
     """
     # Título customizado com cor e fonte
